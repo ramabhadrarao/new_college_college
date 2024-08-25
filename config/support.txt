@@ -1,0 +1,7 @@
+CREATE DATABASE college_erp;
+CREATE USER 'college_erp'@'localhost' IDENTIFIED BY '#Rama#2024???#@';
+GRANT ALL PRIVILEGES ON college_erp.* TO 'college_erp'@'localhost';
+
+
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+a0d24be8cef0225605945aa6cf70ace62aff2075847c3454c25b44b918527964131dea3b436efb8283013f943cf0ec76feb1aed6e883e600614ca3b13d8a1b61
